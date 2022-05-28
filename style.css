@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0 ;
+  background-color: rgb(247, 243, 243);
+}
+
+li, a{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #C28B48;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+header h1 {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 28px;
+  color: #C28B48;
+}
+
+.links{
+  list-style: none;
+}
+ 
+.links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.links li a {
+  transition: all 0.3s ease 0s;
+}
+
+footer {
+  background: rgb(247, 243, 243);
+  padding: 18px;
+  margin-right: 10%;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer p a {
+  color: #C28B48;
+  text-decoration: none;
+  margin: auto;
+}
+
+div#content{
+  display: flex;
+  gap: 5rem;
+}
+
+.cresep {
+  display: flex;
+  gap: 8rem;
+  flex-direction: column;
+}
+
+article {
+  padding: 10px;
+}
+
+.info h2{
+  padding: 0px 0px 0px 10px;
+  color: #C28B48;
+}
+
+.info p{
+  padding: 20px;
+  color: #C28B48;
+  margin-bottom: 3%;
+}
+
+aside {
+  padding: 70px 10px 70px 80px;
+  float: left;
+   width: 50%;
+   height: 50%;
+}
+
+.button{
+  padding: 13px 13px;
+  background-color: #C28B48;
+  color: white;
+  border-radius: 50px;
+}
+
+.container {
+  display: flex;
+  width: 800px;
+  background-color: rgb(247, 243, 243);
+  margin-left: 15%;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 8%;
+}
+.box {
+  flex-grow: 1;
+  background-color: #C28B48;
+  margin: 3%;
+  padding-right: 28px;
+}
+
+img.recipe {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;}
+
+.buttonR {
+  padding: 9px 9px;
+  background-color: rgb(247, 243, 243);
+  color: #C28B48;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  margin-top: 15%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 8%;
+}
+
+@media screen and (max-width: 400px) {
+  div#content{
+    flex-direction: column;
+  }
+  .container {
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+  }
+
+  aside {
+    padding: 20px 10px 0px 20px;
+  }
+
+  footer {
+    margin-top: 10%;
+  }
+
+  .links li {
+    padding: 0px 10px;
+  }
+
+  .biodata{
+    flex-direction: column;
+  }
+
+  .bio{
+    margin-left: 28%;
+  }
+
+
+ }
+
+ @media screen and (max-width: 550px) {
+  div#content{
+    flex-direction: column;
+  }
+  .container {
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+  }
+
+  aside {
+    padding: 20px 10px 0px 20px;
+  }
+
+  footer {
+    margin-top: 10%;
+  }
+
+  .links li {
+    padding: 0px 10px;
+  }
+
+  .biodata{
+    flex-direction: column;
+  }
+  .bio{
+    margin-left: 28%;
+  }
+
+ }
+
+ @media screen and (max-width: 900px) {
+  div#content{
+    flex-direction: column;
+  }
+  .container {
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+  }
+
+  aside {
+    padding: 20px 10px 0px 20px;
+  }
+
+  footer {
+    margin-top: 10%;
+  }
+
+  .links li {
+    padding: 0px 10px;
+  }
+
+  .biodata{
+    flex-direction: column;
+  }
+
+ }
+
+  
+.content-rata-tengah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article#redvelvet {
+  margin-top: 5%;
+}
+
+article#cookies {
+  margin-top: 5%;
+}
+
+.bio{
+    background-color: #C28B48;
+    border-radius: 50px;
+    height: fit-content;
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: fit-content;
+    margin-left: 5%;
+}
+
+.biodata{
+  display: flex;
+  justify-content: center;
+}
+
+.boxB{
+  background-color: #C28B48;
+  margin: 3%;
+  padding-right: 28px;
+  border-radius: 50px;
+  padding-left: 10%;
+}
+
+.boxB h2 {
+  color: white;
+  background-color: #C28B48;
+  text-align: center;
+}
+
+.boxB li {
+  color: white;
+  background-color: #C28B48;
+}
+
+.bio b{
+  padding: 0%;
+}
+
+article.b{
+  padding: 0%;
+}
+
+.card h3 {
+  color: rgb(121, 66, 8);
+}
+
+.card h4{
+  color: #b66400;
+}
